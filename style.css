@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+  
+    height: 2000px;
+  }
+  
+  section{
+    height: 800px;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/268/849/297/sky-city-new-york-city-empire-state-building-wallpaper-preview.jpg)  fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  section:before{
+    content: "";
+    background: linear-gradient(to top,black,transparent);
+    position: absolute;
+    left: 0;
+    height: 800px;
+    width: 100%;;
+  }
+  
+  h1{
+    color: black;
+    font-size: 4em;
+    font-family: sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+  }
+  h2{
+    color: white;
+    font-size: 3em;
+    font-family: sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+  }
