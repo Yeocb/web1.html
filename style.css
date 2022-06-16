@@ -1,12 +1,12 @@
 body{
     margin: 0;
-  
+    background: black;
     height: 2000px;
   }
   
   section{
-    height: 800px;
-    background: url(https://p4.wallpaperbetter.com/wallpaper/268/849/297/sky-city-new-york-city-empire-state-building-wallpaper-preview.jpg)  fixed; 
+    height: 700px;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/268/849/297/sky-city-new-york-city-empire-state-building-wallpaper-preview.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,23 +17,62 @@ body{
     background: linear-gradient(to top,black,transparent);
     position: absolute;
     left: 0;
-    height: 800px;
+    height: 750px;
     width: 100%;;
   }
   
   h1{
     color: black;
-    font-size: 4em;
     font-family: sans-serif;
+    font-size: 5em;
     position: absolute;
-    left: 550px;
-    top: 100px;
+    left: 370px;
+    top: 130px;
+    animation: slide 1.5s ease-out;
   }
   h2{
     color: white;
-    font-size: 3em;
     font-family: sans-serif;
+    font-size: 5em;
+    width: 258px;
     position: absolute;
-    left: 550px;
-    top: 150px;
+    left: 370px;
+    top: 250px; 
+    animation: slide 1.5s ease-out;
   }
+ @keyframes slide {
+  from  {
+    left: -100px;
+  }
+  to{
+    left: 370px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: white  ;
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+  
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 8px 10px;
+}
+
+.navbar__menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.navbar__menu li{
+  padding: 8px 10px;
+}
+.navbar__menu li:hover{
+  background-color: black;
+  border-radius: 8px;
+}
