@@ -2,6 +2,8 @@ body{
     margin: 0;
     background: black;
     height: 2000px;
+    justify-content: center;
+    align-items: center;
   }
   
   section{
@@ -75,4 +77,18 @@ a{
 .navbar__menu li:hover{
   background-color: black;
   border-radius: 8px;
+}
+
+.slider {
+  width: 500px;
+  height: 700px;
+  display: flex;
+}
+
+.box {
+  text-align: center;
+  line-height: 800px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
 }
